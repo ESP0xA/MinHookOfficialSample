@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\include">
+      <UniqueIdentifier>{c9d2c70a-486b-4070-9f90-6a294843ef66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bin">
+      <UniqueIdentifier>{0b8a467e-db03-4544-a72a-8fec8d08258c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinHookSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\MinHook.x64.dll">
+      <Filter>Resource Files\bin</Filter>
+    </None>
+    <None Include="bin\MinHook.x86.dll">
+      <Filter>Resource Files\bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="bin\MinHook.x86.lib">
+      <Filter>Resource Files\bin</Filter>
+    </Library>
+    <Library Include="bin\MinHook.x64.lib">
+      <Filter>Resource Files\bin</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\MinHook.h">
+      <Filter>Resource Files\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
